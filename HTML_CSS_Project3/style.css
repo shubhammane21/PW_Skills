@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:31px 83px;
+    height: 94px;
+    background-color: #000000;
+}
+.main-list{
+    flex-grow: 1;
+}
+
+img{
+    width: 92px;
+    height: 32px;
+}
+
+.main{
+    background-image: url("./assets/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 91vh;
+    text-align: center;
+}
+
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #ffffff;
+    margin-left: 64px;
+}
+.logo,
+.list-item{
+    cursor:pointer;
+}
+.main-heading{
+   max-width: 836px;
+   margin: 0 auto;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 80px;
+   line-height: 98px;
+   text-align: center;
+   color: #ffffff;
+   padding-top:172px;
+}
+
+.hero-heading{
+    max-width: 846px;
+    margin: 0 auto;
+    font-style:normal;
+    font-size: 80px;
+    line-height:98px;
+    text-align: center;
+    color: #ffffff;
+    padding-top:171px;
+}
+.hero-content{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+
+}
+.buy-button{
+    padding: 6px 28px;
+    background-color: #ba0cc5;
+    border-radius: 5px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.request-button{
+    padding: 7px 28px;
+    background-color: #ba0cc5;
+    border-radius: 7px;
+    font-family: "Poppins";
+    font-size: 27px;
+    line-height: 45px;
+    color:#ffffff ;
+    border: none;
+    padding: 14px 22px;
+    margin-top: 64px;
+    cursor: pointer;
+}
